@@ -1,0 +1,22 @@
+git clone https://github.com/nancyrana67/offline-multi-agent.git
+cd offline-multi-agent
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python app.py
+
+
+# Check if Ollama is running
+ollama serve  # Start Ollama in terminal
+ollama list  # Check installed models
+ollama pull mistral  # Pull the model
+
+
+✅ 12 specialized AI agents
+✅ Complete offline (no APIs or cloud)
+✅ Beautiful NiceGUI interface
+✅ Memory & RAG systems
+✅ Fully extensible architecture
